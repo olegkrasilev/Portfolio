@@ -1,0 +1,239 @@
+@media (max-width: 1300px) {
+  .header__logo-img {
+    width: 90%;
+  }
+  .header__inner {
+    justify-content: center;
+  }
+  .slider__text-title h1 {
+    font-size: 40px;
+    line-height: 50px;
+  }
+  .about__title::after {
+    display: none;
+  }
+  .about__item-info-item2-icon2::after,
+  .about__item-info-item3-icon3::after,
+  .about__item-info-item4-icon4::after {
+    display: none;
+  }
+  .services__title-text::after {
+    display: none;
+  }
+  .services__boxes {
+    justify-content: space-evenly;
+  }
+  .services__box {
+    margin: 0 7px 25px 7px;
+  }
+  .portfolio__title::after,
+  .ourteam__title::after,
+  .prices__title::after,
+  .blog__title::after,
+  .clients__title::after {
+    display: none;
+  }
+  .price__item {
+    margin: 0 10px 10px 10px;
+  }
+}
+
+@media (max-width: 1150px) {
+  .menu__items {
+    margin-right: 50px;
+  }
+  .menu__item-link {
+    font-size: 12px;
+    line-height: 40px;
+  }
+  .testimonials__slider .slick-dots {
+    display: none;
+  }
+}
+
+@media (max-width: 1050px) {
+  .menu__item + .menu__item {
+    padding-left: 0;
+  }
+  .header__inner {
+    flex-direction: column;
+  }
+  .header__logo-img {
+    padding: 20px 0;
+  }
+  .menu {
+    width: 100%;
+    text-align: center;
+    padding-bottom: 20px;
+  }
+  .menu__item {
+    display: block;
+  }
+  .menu__items {
+    margin: 0;
+    padding: 0;
+  }
+  .menu__item-link {
+    display: block;
+    border: 1px solid black;
+    line-height: 50px;
+  }
+  .header__social {
+    display: none;
+  }
+  .slider__text-title h1 {
+    font-size: 30px;
+    line-height: 40px;
+  }
+  .slider__text-desrc p {
+    font-size: 20px;
+    line-height: 25px;
+  }
+  .blog__blog {
+    grid-template-columns: 1fr 1fr;
+  }
+  .footer__logo {
+    text-align: center;
+  }
+  .footer__items {
+    justify-content: center;
+    padding-bottom: 50px;
+    align-items: center;
+    text-align: center;
+  }
+  .footer__social {
+    margin-bottom: 20px;
+  }
+  .footer__items {
+    flex-direction: column;
+    align-items: center;
+  }
+}
+
+@media (max-width: 950px) {
+  .quality__inner {
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    padding: 20px 0px;
+    flex-direction: column;
+    text-align: center;
+  }
+  .quality__logo {
+    margin-bottom: 10px;
+  }
+  .quality__btn {
+    margin-top: 10px;
+  }
+}
+
+@media (max-width: 800px) {
+  .slider__text-title h1 {
+    font-size: 25px;
+    line-height: 30px;
+  }
+  .slider__text-desrc p {
+    font-size: 15px;
+    line-height: 20px;
+  }
+  .title {
+    padding: 30px 0 45px 0;
+    font-size: 15px;
+    line-height: 18px;
+  }
+  .about__item-text {
+    font-size: 14px;
+    line-height: 18px;
+    padding: 0px 10px 40px 10px;
+  }
+  .about__item-info .about__item-info-item-numbers {
+    font-size: 30px;
+    line-height: 51px;
+  }
+  .clients__img {
+    display: flex;
+    justify-content: center;
+    padding: 10px 0 60px 0;
+  }
+  .footer__item2 {
+    margin-left: 0;
+  }
+  .footer__item2-tel-web {
+    padding-top: 0;
+    flex-direction: column;
+  }
+  .footer__item2-name-email {
+    flex-direction: column;
+  }
+  .footer__item-2-email,
+  .footer__item-2-web {
+    padding-left: 0;
+  }
+  .footer__item2-name-email input,
+  .footer__item2-tel-web input {
+    width: 100%;
+    margin: 10px 0;
+  }
+  .footer__item2 {
+    margin-left: 0;
+    width: 100%;
+  }
+}
+
+@media (max-width: 650px) {
+  .slider__text-title h1 {
+    font-size: 17px;
+    line-height: 23px;
+  }
+  .slider__text-desrc p {
+    font-size: 15px;
+    line-height: 20px;
+  }
+  .about__item-info p {
+    font-size: 12px;
+    line-height: 14px;
+  }
+  .about__item-info .about__item-info-item-numbers {
+    font-size: 20px;
+    line-height: 30px;
+  }
+}
+
+@media (max-width: 600px) {
+  .about__item-info {
+    justify-content: space-between;
+  }
+  .blog__blog {
+    grid-template-columns: 1fr;
+    grid-template-rows: 1fr;
+  }
+}
+
+@media (max-width: 490px) {
+  .slider__text-title h1 {
+    padding-top: 10px;
+  }
+  .slider__text-title h1 {
+    font-size: 12px;
+    line-height: 13px;
+  }
+  .slider__text-desrc p {
+    font-size: 9px;
+    line-height: 10px;
+  }
+  .slider__text-link {
+    padding: 4px 3px;
+  }
+}
+
+@media (max-width: 430px) {
+  .about__item-info {
+    justify-content: space-evenly;
+  }
+  .about__item-info-item {
+    margin-bottom: 20px;
+  }
+  .portfolio__item-link {
+    margin: 5px;
+  }
+}
