@@ -1231,6 +1231,11 @@ p {
   position: relative;
 }
 
+.blog__item-link:hover{
+  color: red;
+  transition: all 1s;
+}
+
 .blog__item-link::before {
   position: absolute;
   content: "";
