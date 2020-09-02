@@ -1,8 +1,8 @@
 $(function(){
 
     $('.slider__items').slick({
-         prevArrow: '<button type="button" class="slick-prev slick-prev"><img src="images/prev.png" alt=""></button>',
-         nextArrow: '<button type="button" class="slick-next slick-next"><img src="images/next.png" alt=""></button>',
+         prevArrow: '<button type="button" class="slick-prev slick-prev"><img src="../images/prev.png" alt=""></button>',
+         nextArrow: '<button type="button" class="slick-next slick-next"><img src="../images/next.png" alt=""></button>',
         autoplay: true,
         autoplaySpeed: 3000,
         fade: true,
