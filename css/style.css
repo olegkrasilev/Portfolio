@@ -88,7 +88,7 @@ p {
   transition: all 1s;
 }
 
-.slider__items .slick-btn {
+.slider__items .slick-arrow {
   border: none;
   background-color: transparent;
   position: absolute;
@@ -106,7 +106,6 @@ p {
 }
 .slider__items .slick-prev {
   left: 200px;
-  background-image: url(../images/prev.png);
   height: 40px;
   width: 40px;
   background-repeat: no-repeat;
@@ -114,7 +113,6 @@ p {
 
 .slider__items .slick-next {
   right: 200px;
-  background-image: url(../images/next.png);
   height: 40px;
   width: 40px;
   background-repeat: no-repeat;

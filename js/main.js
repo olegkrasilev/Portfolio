@@ -1,8 +1,8 @@
 $(function(){
 
     $('.slider__items').slick({
-        prevArrow: '<button type="button" class="slick-btn slick-prev"><img src="../images/prev.png" alt=""></button>',
-        nextArrow: '<button type="button" class="slick-btn slick-next"><img src="../images/next.png" alt=""></button>',
+         prevArrow: '<button type="button" class="slick-prev slick-prev"><img src="images/prev.png" alt=""></button>',
+         nextArrow: '<button type="button" class="slick-next slick-next"><img src="images/next.png" alt=""></button>',
         autoplay: true,
         autoplaySpeed: 3000,
         fade: true,
@@ -21,8 +21,15 @@ $(function(){
         arrows: false,
         dots: true,
         autoplay: true,
-        fade: true
-        
+        fade: true,
+                responsive: [
+            {
+                breakpoint: 1025,
+                settings: {
+                    dots: false
+                }
+            }
+        ]  
     });
 
     $(".menu, .slider__items, .about__items").on("click","a", function (event) {
