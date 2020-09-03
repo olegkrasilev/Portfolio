@@ -252,3 +252,9 @@
     margin: 5px;
   }
 }
+
+@media (min-width: 1050px) {
+    .menu__items{
+    display: flex !important;
+  }
+}
