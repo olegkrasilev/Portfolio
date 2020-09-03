@@ -123,6 +123,12 @@
   .menu__items{
     display: none;
   }
+  .slick-prev{
+    display: none;
+  }
+  .slick-next{
+    display: none;
+  }
 }
 
 @media (max-width: 950px) {
