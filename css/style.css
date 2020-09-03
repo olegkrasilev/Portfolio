@@ -46,6 +46,11 @@ p {
 .menu__items {
   margin-right: 100px;
 }
+
+.menu__btn{
+  display: none;
+}
+
 .menu__item {
   display: inline-block;
 }
