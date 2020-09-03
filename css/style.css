@@ -109,6 +109,7 @@ p {
   height: 40px;
   width: 40px;
   background-repeat: no-repeat;
+  background-image: url(../images/prev.png);
 }
 
 .slider__items .slick-next {
@@ -116,6 +117,7 @@ p {
   height: 40px;
   width: 40px;
   background-repeat: no-repeat;
+  background-image: url(../images/next.png);
 }
 
 .testimonials__slider .slick-dots button {
