@@ -467,7 +467,7 @@ p {
 .services__box-icon1::before {
   position: absolute;
   content: "";
-  background-image: url(../images/Idea1.png);
+  background-image: url(../images/idea1.png);
   background-repeat: no-repeat;
   width: 270px;
   height: 26px;
@@ -489,7 +489,7 @@ p {
 .services__box-icon3::before {
   position: absolute;
   content: "";
-  background-image: url(../images/ComboChart.png);
+  background-image: url(../images/Combochart.png);
   background-repeat: no-repeat;
   width: 270px;
   height: 26px;
