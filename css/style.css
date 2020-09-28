@@ -192,6 +192,7 @@ p {
   color: #fff;
   padding: 14px 8px;
   display: inline-block;
+  outline: none;
 }
 
 .slider__text-link:hover {
